@@ -1,0 +1,27 @@
+body {
+  min-width: 960px;
+}
+
+header,
+.container,
+footer {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  margin-right: 30px;
+}
+
+main {
+  width: 80%;
+}
