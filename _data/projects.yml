@@ -1,0 +1,18 @@
+- title: surfaces.js
+  description: An experiment I made to visualize multivariable functions using the Canvas.
+  url: https://github.com/jmeas/surfaces.js
+  img_filename: surfaces.png
+
+- title: tangible.js
+  description: A little library that generates living DOM representations of JavaScript Objects.
+  url: https://github.com/jmeas/tangible.js
+  img_filename: tangible.png
+
+- title: Admiralty
+  description: I worked with Sue Lockwood to create the project management software that Bocoup uses (to be open sourced in 2015).
+  img_filename: admiralty.png
+
+- title: Marionette
+  description: I'm an active contributor to Marionette, a popular library for building web applications.
+  url: https://marionettejs.com
+  img_filename: marionette.png
