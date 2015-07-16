@@ -1,16 +1,10 @@
 <nav>
   <ul>
-    <li>
-      <a href='/'>About</a>
-    </li>
-    <li>
-      <a href='/illustration/'>Illustration</a>
-    </li>
-    <li>
-      <a href='/projects/'>Projects</a>
-    </li>
-    <li>
-      <a href='/contact/'>Contact</a>
-    </li>
+    {% assign url = page.url|remove:'index.html' %}
+    {% for item in site.data.navigation %}
+      <li {% if url == item.url %}class="active"{% endif %}>
+        <a href='{{ item.url }}'>{{ item.title }}</a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>

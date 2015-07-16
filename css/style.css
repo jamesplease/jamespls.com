@@ -3,6 +3,7 @@ body {
 }
 main {
   width: 87%;
+  min-height: 400px;
 }
 .container {
   margin: 0 auto;
@@ -21,14 +22,15 @@ a {
 }
 header {
   width: 900px;
-  margin: 0 auto;
+  margin: 50px auto 50px;
 }
 header h1 {
+  margin: 0;
   text-align: center;
 }
 nav {
   width: 13%;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 nav ul {
   list-style-type: none;
@@ -38,10 +40,15 @@ nav ul {
 nav ul li {
   margin: 25px 0;
 }
+nav ul li.active {
+  font-weight: bold;
+}
 nav ul li:first-child {
   margin-top: 0;
 }
 footer {
   width: 900px;
   margin: 0 auto;
+  font-size: 13px;
+  color: #999;
 }
