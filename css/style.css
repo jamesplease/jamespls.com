@@ -1,9 +1,15 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 body {
   min-width: 960px;
 }
 main {
   width: 87%;
   min-height: 300px;
+  margin-bottom: 30px;
 }
 .container {
   margin: 0 auto;
@@ -32,11 +38,6 @@ nav {
   width: 13%;
   margin-right: 50px;
 }
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 nav ul li {
   margin: 25px 0;
 }
@@ -51,4 +52,32 @@ footer {
   margin: 0 auto;
   font-size: 13px;
   color: #999;
+}
+.project-list li {
+  margin: 10px 0;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.project-list li:first-child {
+  margin-top: 0;
+}
+.project-list li figure {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.project-list li figure img {
+  width: 90px;
+  height: 75px;
+  margin-right: 20px;
+}
+.project-list li figcaption {
+  flex: 1;
+}
+.project-list li figcaption h1 {
+  font-size: 21px;
+  margin: 0 0 10px;
+}
+.project-list li figcaption p {
+  margin: 0;
 }

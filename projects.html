@@ -4,4 +4,20 @@ permalink: /projects/
 redirect_from: "/projects.html"
 ---
 
-List of projects here.
+<ul class='project-list'>
+  {% for item in site.data.projects %}
+    <li>
+      <figure>
+        <img src='' alt='{{ item.title }}'>
+        <figcaption>
+          <h1>
+            {{ item.title }}
+          </h1>
+          <p>
+            {{ item.description }}
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+  {% endfor %}
+</ul>
