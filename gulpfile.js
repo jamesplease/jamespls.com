@@ -7,8 +7,15 @@ gulp.task('clean-css', function(cb) {
   del('./css/style.css', cb);
 });
 
+// Compile our Stylus
 gulp.task('stylus', function() {
   return gulp.src('./css/stylus/style.styl')
     .pipe($.stylus())
     .pipe(gulp.dest('./css'))
 });
+
+// Build the site
+gulp.task('build', ['clean-css', 'stylus']);
+
+// An alias of build
+gulp.task('default', ['build']);
