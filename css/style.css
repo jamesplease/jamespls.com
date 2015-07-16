@@ -1,27 +1,29 @@
 body {
   min-width: 960px;
 }
-
-header,
-.container,
-footer {
+main {
+  width: 80%;
+}
+.container {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
   width: 900px;
   margin: 0 auto;
 }
-
 header h1 {
   text-align: center;
 }
-
-.container {
-  display: flex;
-}
-
 nav {
   width: 20%;
   margin-right: 30px;
 }
-
-main {
-  width: 80%;
+footer {
+  width: 900px;
+  margin: 0 auto;
 }

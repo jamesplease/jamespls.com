@@ -1,0 +1,29 @@
+{
+  "name": "jmeas.com",
+  "version": "0.0.1",
+  "description": "My personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmeas/jmeas.com.git"
+  },
+  "keywords": [
+    "jmeas",
+    "jmeas.com"
+  ],
+  "author": "Jmeas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmeas/jmeas.com/issues"
+  },
+  "homepage": "https://github.com/jmeas/jmeas.com",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-stylus": "^2.0.5"
+  }
+}
