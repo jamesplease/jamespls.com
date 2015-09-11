@@ -1,0 +1,118 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  min-width: 960px;
+}
+main {
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+.container {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+}
+html {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+p:first-child {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #c082cb;
+}
+p {
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+header {
+  width: 900px;
+  margin: 70px auto 10px;
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+header h1 img {
+  height: 51px;
+}
+nav {
+  width: 900px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  color: #333;
+  font-size: 20px;
+  margin: 0 15px 60px;
+}
+nav ul li a {
+  color: #000;
+}
+nav ul li.active a {
+  color: #c082cb;
+}
+footer {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #999;
+}
+.illustration-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.illustration-list li {
+  width: 200px;
+  height: 200px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+.illustration-list figure {
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.illustration-list figure img {
+  width: 100%;
+  height: 100%;
+}
+.project-list li {
+  margin: 15px 0;
+  border-radius: 2px;
+  padding: 10px;
+}
+.project-list li:first-child {
+  margin-top: 0;
+}
+.project-list li figure {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.project-list li figure img {
+  width: 130px;
+  height: 120px;
+  margin-right: 10px;
+}
+.project-list li figcaption {
+  flex: 1;
+}
+.project-list li figcaption h1 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.project-list li figcaption p {
+  margin: 0;
+}
