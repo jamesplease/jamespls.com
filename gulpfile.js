@@ -2,17 +2,21 @@ const gulp = require('gulp');
 const $ = require('gulp-load-plugins')();
 const del = require('del');
 
-// Remove the built CSS file
-gulp.task('clean-css', function(cb) {
+function cleanCss(cb) {
   del('./css/style.css', cb);
-});
+}
 
-// Compile our Stylus
-gulp.task('stylus', function() {
+function buildStylus() {
   return gulp.src('./css/stylus/style.styl')
     .pipe($.stylus())
     .pipe(gulp.dest('./css'))
-});
+}
+
+// Remove the built CSS file
+gulp.task('clean-css', cleanCss);
+
+// Compile our Stylus
+gulp.task('stylus', buildStylus);
 
 // Build the site
 gulp.task('build', ['clean-css', 'stylus']);
