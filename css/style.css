@@ -23,6 +23,7 @@ p:first-child {
 }
 a {
   text-decoration: none;
+  color: #c082cb;
 }
 p {
   font-size: 1.15rem;
@@ -89,7 +90,6 @@ footer {
 }
 .project-list li {
   margin: 15px 0;
-  border: 1px solid #dfdfdf;
   border-radius: 2px;
   padding: 10px;
 }
