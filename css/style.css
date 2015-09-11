@@ -7,45 +7,57 @@ body {
   min-width: 960px;
 }
 main {
-  width: 87%;
   min-height: 300px;
   margin-bottom: 20px;
 }
 .container {
   margin: 0 auto;
-  width: 900px;
+  width: 700px;
   display: flex;
 }
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 p:first-child {
   margin-top: 0;
 }
 a {
   text-decoration: none;
-  color: #dc7766;
+}
+p {
+  font-size: 1.15rem;
+  line-height: 2rem;
 }
 header {
   width: 900px;
-  margin: 50px auto 50px;
+  margin: 70px auto 10px;
 }
 header h1 {
   margin: 0;
   text-align: center;
 }
+header h1 img {
+  height: 51px;
+}
 nav {
-  width: 13%;
-  margin-right: 50px;
+  width: 900px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 nav ul li {
-  margin: 25px 0;
+  color: #333;
+  font-size: 20px;
+  margin: 0 15px 60px;
 }
-nav ul li.active {
-  font-weight: bold;
+nav ul li a {
+  color: #000;
 }
-nav ul li:first-child {
-  margin-top: 0;
+nav ul li.active a {
+  color: #c082cb;
 }
 footer {
   width: 900px;
