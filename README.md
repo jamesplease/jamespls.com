@@ -28,11 +28,13 @@ directory.
 
 #### Running the Site
 
-Run `npm run work` to start the Jekyll server. Changes made to the site
+Run `npm run jekyll` to start the Jekyll server. Changes made to the site
 will automatically cause the Jekyll server to reboot.
 
-If you make changes to the Stylus, you'll need to run `npm run build` to rebuild
-it (for now).
+Open a new terminal and run `npm run work`. This will build the Stylus, then
+start a watcher that will automatically build the stylus for you when you
+make changes. Note that the page **will not** automatically refresh once
+the stylus builds. You will need to manually refresh (for now).
 
 ### Prerequisites
 

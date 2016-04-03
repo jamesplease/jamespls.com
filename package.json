@@ -4,7 +4,8 @@
   "description": "My personal website.",
   "main": "index.js",
   "scripts": {
-    "work": "jekyll serve",
+    "jekyll": "jekyll serve",
+    "work": "gulp watch",
     "build": "gulp"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "devDependencies": {
     "del": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-livereload": "3.8.1",
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-stylus": "^2.0.5"
   }
