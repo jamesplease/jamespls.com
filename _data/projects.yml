@@ -1,9 +1,0 @@
-- title: tangible.js
-  description: A little library that generates living DOM representations of JavaScript Objects.
-  url: https://github.com/jmeas/tangible.js
-  img_filename: tangible.png
-
-- title: surfaces.js
-  description: An experiment I made to visualize multivariable functions using the Canvas.
-  url: https://github.com/jmeas/surfaces.js
-  img_filename: surfaces.png
