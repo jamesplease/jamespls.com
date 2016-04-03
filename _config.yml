@@ -4,11 +4,4 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jmeas.com" # the base hostname & protocol for your site
 github_username: jmeas
 
-# Build settings
-markdown: redcarpet
-highlighter: pygments
-
 exclude: ['node_modules', 'css/stylus']
-
-redcarpet:
-  extensions: ['tables', 'no_intra_emphasis', 'autolink', 'with_toc_data']
