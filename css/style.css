@@ -39,3 +39,17 @@ header h1 {
   margin: 0;
   text-align: center;
 }
+header h1 a {
+  font-size: 47px;
+  font-weight: 400;
+  font-family: 'Droid Serif', serif;
+  color: #dc8ab9;
+  background: -webkit-linear-gradient(#fb72a4, #bba3ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 340px) {
+  header h1 a {
+    font-size: 40px;
+  }
+}
