@@ -15,6 +15,9 @@ main {
   padding: 0 20px;
   display: flex;
 }
+.text-content {
+  margin-bottom: 35px;
+}
 html {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   color: #555;
@@ -52,4 +55,23 @@ header h1 a {
   header h1 a {
     font-size: 40px;
   }
+}
+.social-media-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.social-media-list .social-media-list-item {
+  padding: 0 15px;
+}
+.social-media-list a {
+  opacity: 0.5;
+}
+.social-media-list a:hover {
+  opacity: 1;
+}
+.social-media-list img {
+  width: 26px;
 }
