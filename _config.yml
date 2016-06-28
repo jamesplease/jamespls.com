@@ -5,3 +5,10 @@ url: "https://jmeas.com" # the base hostname & protocol for your site
 github_username: jmeas
 
 exclude: ['node_modules', 'css/stylus']
+
+# Blog Settings
+permalink: /blog/:year/:month/:day/:title
+paginate: 1
+
+gems:
+  - jekyll-paginate
