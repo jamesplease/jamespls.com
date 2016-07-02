@@ -32,11 +32,10 @@ version ready, I pushed it to GitHub. Then, I copy and pasted the built source f
 the file, I included a big comment at the
 top that had:
 
-1. a link to the project that the file was forked from
-2. why the app wasn't able to use a stable release, with a link to the issue explaining the feature
+1. a link to the original project
+2. why the app wasn't able to use a stable release, with a link to the issue explaining the feature that was missing
 3. a link to my open PR on the project
 4. a reference to the commit that the copy + pasted file came from
-5. referencing the commit (from my fork) that the file came from
 
 If you're using an issue tracker, opening an issue there is a good idea, too.
 
@@ -46,7 +45,7 @@ why an arbitrary commit was used in the first place. I like to think that if I
 hadn't been able to follow through with moving to a stable release, that another
 developer after me would have had the information she needed to do so.
 
-If copy and pasting feels too gross to you, then that's fine, too. In the past, I've also installed
+If copy and pasting feels too gross to you, I totally understand. In the past, I've also installed
 [from GitHub URLs](https://docs.npmjs.com/files/package.json#git-urls-as-dependencies),
 referencing a specific SHA.
 The reason I went with the copy and paste approach in this situation is that SHAs, to me, are
