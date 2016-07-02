@@ -16,7 +16,7 @@ function buildStylus() {
 
 function watch() {
   $.livereload.listen();
-  var watcher = gulp.watch('./css/stylus/**/*', ['stylus']);
+  $.watch('./css/stylus/**/*', buildStylus);
 }
 
 // Remove the built CSS file
