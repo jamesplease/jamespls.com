@@ -8,5 +8,8 @@
       {{ content }}
     </main>
   </div>
+  {% if jekyll.environment != "development" %}
+  {% include analytics.html %}
+  {% endif %}
 </body>
 </html>
