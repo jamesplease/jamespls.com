@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1 class="post-header">
+  {{page.title}}
+</h1>
+<div className="post-meta">
+  Posted {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}
+</div>
+<div className="post-body">
+  {{content}}
+</div>

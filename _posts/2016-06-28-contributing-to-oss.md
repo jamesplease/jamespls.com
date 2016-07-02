@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Contributing to OSS While Remaining Productive"
 author: James Smith
 date:   2016-06-28 10:00:00

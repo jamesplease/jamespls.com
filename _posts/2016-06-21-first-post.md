@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "The first post"
 author: James Smith
 date:   2016-06-21 10:00:00
