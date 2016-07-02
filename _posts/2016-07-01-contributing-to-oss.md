@@ -40,7 +40,7 @@ top that had:
 If you're using an issue tracker, opening an issue there is a good idea, too.
 
 Providing context around why you're using a non-stable release is
-important. It can be difficult to ever upgrade without any reason as to
+important. It can be difficult to move away from it without any reason as to
 why an arbitrary commit was used in the first place. I like to think that if I
 hadn't been able to follow through with moving to a stable release, that another
 developer after me would have had the information she needed to do so.
@@ -59,10 +59,10 @@ my app got rid of the copy and pasted version.
 In this situation, everything went fairly smoothly, but it doesn't
 always go that way. If the library maintainer never responds,
 or if they decide to not merge the changes, then I consider maintaining
-a fork of the library. This is a last-resort solution, as I prefer to avoid
+a fork of the library. This is a last resort solution, as I prefer to avoid
 fragmentation, but occasionally it's the best way forward.
 
-One thing to keep in mind is it can be easy to de-prioritize moving off of an arbitrary
+One thing to keep in mind is it can be easy to deprioritize moving off of an arbitrary
 commit of a library, especially when the feature your app needs is working. But it's
 worthwhile to follow through and migrate to a stable release to get all of the
 benefits of using a package
