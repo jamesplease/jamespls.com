@@ -5,12 +5,23 @@ description: A blog about front end development, UX, and design.
 permalink: /blog/
 ---
 
-<div class="text-content">
+<div class="text-content blogList">
   {% for post in site.posts %}
-    <div class="babel-blog-post">
-      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p class="small text-muted">Posted {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}{% if post.meta %} · {{ post.meta }}{% endif %}</p>
-      <p class="babel-blog-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+    <div class="blogList-listItem">
+      <h2 class="blogList-blogTitle">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="blogList-titleLink">
+          {{ post.title }}
+        </a>
+      </h2>
+      <div class="blogList-meta">
+        Posted {{ post.date | date: "%b %-d, %Y" }}
+      </div>
+      <p class="blogList-excerpt">
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="blogList-continueReading">
+          Continue reading…
+        </a>
+      </p>
     </div>
   {% endfor %}
 </div>
