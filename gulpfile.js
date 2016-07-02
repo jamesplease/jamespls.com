@@ -8,6 +8,7 @@ function cleanCss(cb) {
 
 function buildStylus() {
   return gulp.src('./css/stylus/style.styl')
+    .pipe($.plumber())
     .pipe($.stylus())
     .pipe(gulp.dest('./css'))
     .pipe($.livereload());
