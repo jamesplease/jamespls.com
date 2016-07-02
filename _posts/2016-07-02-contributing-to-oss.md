@@ -2,7 +2,7 @@
 layout: post
 title:  "Contributing to OSS While Remaining Productive"
 author: James Smith
-date:   2016-06-30 10:00:00
+date:   2016-07-01 10:00:00
 categories: javascript
 share_text: "jmeas.com – Contributing to OSS While Remaining Productive"
 ---
