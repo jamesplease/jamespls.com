@@ -45,7 +45,7 @@ why an arbitrary commit was used in the first place. I like to think that if I
 hadn't been able to follow through with moving to a stable release, that another
 developer after me would have had the information she needed to do so.
 
-If copy and pasting feels too gross to you, I totally understand. In the past, I've also installed
+If copy and pasting feels too gross to you, well, I completely understand. In the past, I've also installed
 [from GitHub URLs](https://docs.npmjs.com/files/package.json#git-urls-as-dependencies),
 referencing a specific SHA.
 The reason I went with the copy and paste approach in this situation is that SHAs, to me, are
@@ -56,9 +56,9 @@ don't answer these on their own, and package.json files [don't really support co
 Anyway, once the react-waypoint PR eventually got merged, a quick commit to
 my app got rid of the copy and pasted version.
 
-In this situation, everything went fairly smoothly. It doesn't
+In this situation, everything went fairly smoothly, but it doesn't
 always go that way. If the library maintainer never responds,
-or if they decide to not merge my changes, then I consider maintaining
+or if they decide to not merge the changes, then I consider maintaining
 a fork of the library. This is a last-resort solution, as I prefer to avoid
 fragmentation, but occasionally it's the best way forward.
 
