@@ -10,5 +10,5 @@ exclude: ['node_modules', 'css/stylus']
 permalink: /blog/:year/:month/:day/:title
 paginate: 1
 
-gems:
+plugins:
   - jekyll-paginate

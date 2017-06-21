@@ -5,7 +5,7 @@ body {
 }
 main {
   min-height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 10vh;
 }
 .container {
   box-sizing: border-box;
@@ -16,11 +16,17 @@ main {
   display: flex;
 }
 .text-content {
-  margin-bottom: 35px;
+  margin-bottom: 105px;
+}
+@media (max-width: 600px) {
+  .text-content {
+    margin-bottom: 50px;
+  }
 }
 html {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  color: #222;
+  font-weight: 300;
+  color: #111;
 }
 p:first-child {
   margin-top: 0;
@@ -29,9 +35,12 @@ a {
   text-decoration: none;
   color: #c082cb;
 }
+a:hover {
+  text-decoration: underline;
+}
 p {
-  font-size: 19px;
-  line-height: 2rem;
+  font-size: 21px;
+  line-height: 2.2rem;
 }
 h1,
 h2,
@@ -66,7 +75,7 @@ ol {
 header {
   width: 100%;
   max-width: 900px;
-  margin: 60px auto 30px;
+  margin: 100px auto 100px;
 }
 header h1 {
   margin: 0;
@@ -74,12 +83,16 @@ header h1 {
 }
 header h1 a {
   font-size: 35px;
-  font-weight: 400;
-  font-family: 'Droid Serif', serif;
+  font-weight: 300;
   color: #dc8ab9;
   background: -webkit-linear-gradient(#fb72a4, #bba3ce);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 600px) {
+  header {
+    margin: 50px auto 50px;
+  }
 }
 .navList {
   list-style: none;
@@ -117,15 +130,15 @@ header h1 a {
   margin: 0;
   padding: 0;
 }
+.social-media-list .social-media-icon {
+  fill: #aaa;
+  width: 30px;
+  will-change: transform;
+  transition: transform 0.15s ease-in-out;
+}
+.social-media-list .social-media-icon:hover {
+  fill: #5ebeff;
+}
 .social-media-list .social-media-list-item {
-  padding: 0 15px;
-}
-.social-media-list a {
-  opacity: 0.65;
-}
-.social-media-list a:hover {
-  opacity: 1;
-}
-.social-media-list img {
-  width: 26px;
+  padding: 0 18px;
 }
