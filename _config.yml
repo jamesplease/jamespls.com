@@ -9,6 +9,3 @@ exclude: ['node_modules', 'css/stylus']
 # Blog Settings
 permalink: /blog/:year/:month/:day/:title
 paginate: 1
-
-plugins:
-  - jekyll-paginate
