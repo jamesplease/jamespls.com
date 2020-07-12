@@ -15,9 +15,18 @@ body {
   box-sizing: border-box;
 }
 
+.photo {
+  display: block;
+  margin: 0 auto 1.25rem;
+  height: 231px;
+  width: 231px;
+  max-width: 65vw;
+  max-height: 65vw;
+}
+
 main {
   width: 100%;
-  max-width: 40rem;
+  max-width: 35rem;
   margin: 0 auto;
 }
 
@@ -27,6 +36,7 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   margin: 0 0 1.75rem;
+  text-align: center;
 }
 
 p {
@@ -43,6 +53,7 @@ a {
   margin-top: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .social-link {
@@ -70,12 +81,20 @@ a {
   fill: #eb40a1;
 }
 
+
+
 @media (max-width: 551px) {
   body {
-    padding-top: 3rem;
+    padding-top: 2.5rem;
   }
 
-  .links {
-    justify-content: center;
+  h1 {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 2.5rem;
   }
 }
