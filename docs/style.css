@@ -73,4 +73,8 @@ a {
   body {
     padding-top: 3rem;
   }
+
+  .links {
+    justify-content: center;
+  }
 }
