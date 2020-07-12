@@ -17,7 +17,7 @@ body {
 
 main {
   width: 100%;
-  max-width: 46rem;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ h1 {
   color: #ff4db2;
   font-size: 3rem;
   font-weight: 900;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.75rem;
 }
 
 p {
