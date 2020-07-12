@@ -38,6 +38,37 @@ a {
   color: #ff4db2;
 }
 
+.links {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  padding: 0;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+.social-link svg {
+  width: 2rem;
+}
+
+.social-link:hover svg {
+  fill: #ff4db2;
+}
+
+.social-link:active svg {
+  fill: #eb40a1;
+}
+
 @media (max-width: 551px) {
   body {
     padding-top: 3rem;
