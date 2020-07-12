@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 10rem 1rem;
+  padding: 5rem 1rem;
   color: #282828;
 }
 
@@ -32,11 +32,21 @@ main {
 
 h1 {
   color: #ff4db2;
-  letter-spacing: -0.8px;
+  letter-spacing: 0px;
   font-size: 3rem;
   font-weight: 900;
-  margin: 0 0 1.75rem;
+  margin: 0 0 2rem;
   text-align: center;
+}
+
+h2 {
+  margin: 2rem 0 1rem;
+  font-weight: 900;
+  font-size: 1.625rem;
+}
+
+p + h2 {
+  margin-top: 3.5rem;
 }
 
 p {
@@ -50,7 +60,7 @@ a {
 }
 
 .links {
-  margin-top: 2rem;
+  margin: 2.5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,8 +90,6 @@ a {
 .social-link:active svg {
   fill: #eb40a1;
 }
-
-
 
 @media (max-width: 551px) {
   body {
