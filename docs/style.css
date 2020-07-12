@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10rem 1rem;
+  color: #282828;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff4db2;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0 0 1.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0 0 1.25rem;
+}
+
+a {
+  color: #ff4db2;
+}
+
+@media (max-width: 551px) {
+  body {
+    padding-top: 3rem;
+  }
+}
