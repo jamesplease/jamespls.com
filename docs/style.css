@@ -23,6 +23,7 @@ main {
 
 h1 {
   color: #ff4db2;
+  letter-spacing: -0.8px;
   font-size: 3rem;
   font-weight: 900;
   margin: 0 0 1.75rem;
